@@ -1,0 +1,123 @@
+/***------------**Extra small device(portrait phones, less than 576px)**---****/
+
+@media (max-width: 575.98px){
+	/*header start*/
+	.logo {
+	margin-top: 20px;
+	}
+	.l-top {
+	display: none;
+	}
+	.menu ul li a {
+	padding: 5px 0px !important;
+	}
+	.d-search {
+    min-width: 260px;
+    padding: 12px 25px
+    
+	}
+	.d-search[data-bs-popper] {
+	    left: 0;
+	}
+	/*header end*/
+	.slider{
+		display: none;
+		
+	}
+	
+}
+
+/***---------------------------**Small device(landscape phones, 576px and up)****------------**/
+
+@media (min-width: 576px) and (max-width: 767.98px){
+/*header start*/
+
+	.logo {
+	    margin-top: 20px;
+	}
+	.l-top {
+	    display: none;
+	}
+	.menu ul li a {
+	padding: 5px 0px !important;
+	}
+
+	.d-search[data-bs-popper] {
+	    left: 0;
+	}
+	/*header end*/
+	.slider{
+		display: none;
+		
+	}
+	
+
+}
+
+/***----------------------------**Medium device(Tablets, 768px and up)****------------**/
+
+@media (min-width: 768px) and (max-width: 991.98px){
+/*header start*/
+.menu ul li a {
+padding: 5px 0px !important;
+}
+.d-search[data-bs-popper] {
+    left: 0;
+}
+/*header end*/
+.my-prev, .my-nxt {
+    width: 12%;
+    margin-top: 54%;
+}
+.my-nxt {
+    margin-right: 77%;
+}
+.slid h5 {
+    font-size: 45px;
+}
+.slid p {
+    font-size: 16px;
+}
+.s-b {
+    margin-top: 30px;
+    }
+    .slid {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+}
+
+/***----------------------------**Large device(Large Leptop and dekstop, 992px and up)****------------**/
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+.my-prev, .my-nxt {
+    width: 10%;
+}
+.my-prev {
+    margin-left: 0%;
+}
+.my-nxt {
+    margin-right: 83%;
+}
+.prv {
+    margin-left: 5px;
+}
+
+}
+
+/***----------------------------**Extra Large device(Extra large Leptop and dekstop, 1200px and up)****------------**/
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+	
+
+}
+
+/***--------------------**Extra extra Large device(Extra extra large Leptop and dekstop, 1400px and up)****--------**/
+
+@media (min-width: 1400px){
+
+	
+
+}
